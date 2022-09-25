@@ -26,9 +26,4 @@ public class HelloApplication extends Application {
         launch();
       }
 
-//    public static void main(String[] args) throws SQLException {
-//        DropDB dropDB = new DropDB();
-//        for (int i = 1; i <= 2; i++)
-//            dropDB.dropNorm(i);
-//    }
 }
