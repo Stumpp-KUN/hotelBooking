@@ -87,7 +87,6 @@ public class Controller {
 
     @FXML
     void biznes(MouseEvent event) throws IOException {
-//метод проверки места
         ap=2;
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("bronirovanie2.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 700, 500);
@@ -100,7 +99,6 @@ public class Controller {
 
     @FXML
     void econ(MouseEvent event) throws IOException {
-//метод проверки места
         ap=0;
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("bronirovanie.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 700, 500);
@@ -114,7 +112,6 @@ public class Controller {
 
     @FXML
     void standart(MouseEvent event) throws IOException {
-//метод проверки места
         ap=1;
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("bronirovanie1.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 700, 500);
