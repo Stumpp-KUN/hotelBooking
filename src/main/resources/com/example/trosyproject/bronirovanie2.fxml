@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #e5e5e5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trosyproject.Reg2Controller">
+   <children>
+      <Label layoutX="275.0" layoutY="49.0" text="Бронирование места" textFill="#262525">
+         <font>
+            <Font name="Arial Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="117.0" text="Имя">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="200.0" layoutY="112.0" />
+      <Label layoutX="127.0" layoutY="149.0" text="Фамилия">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="surname" layoutX="200.0" layoutY="144.0" />
+      <Label layoutX="129.0" layoutY="184.0" text="Номер">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="number" layoutX="200.0" layoutY="179.0" />
+      <Label layoutX="126.0" layoutY="220.0" text="email">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="200.0" layoutY="215.0" />
+      <Label layoutX="123.0" layoutY="250.0" text="Питание">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="food" layoutX="200.0" layoutY="249.0" mnemonicParsing="false" onAction="#initialize" text="Включено" />
+      <Label layoutX="123.0" layoutY="275.0" text="Джакузи">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="jak" layoutX="200.0" layoutY="274.0" mnemonicParsing="false" onAction="#initialize" text="Включено" />
+      <Label layoutX="119.0" layoutY="301.0" text="Кровать 1">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="bed" layoutX="200.0" layoutY="300.0" mnemonicParsing="false" onAction="#initialize" text="2" />
+      <Label layoutX="118.0" layoutY="325.0" text="Спа-процедуры">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="spa" layoutX="235.0" layoutY="324.0" mnemonicParsing="false" onAction="#initialize" text="Включено" />
+      <ImageView fitHeight="304.0" fitWidth="150.0" layoutX="494.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../tg3.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="281.0" layoutY="403.0" mnemonicParsing="false" onMouseClicked="#bron" prefHeight="26.0" prefWidth="138.0" style="-fx-background-color: white;" text="Забронировать" />
+      <Label fx:id="cost" layoutX="216.0" layoutY="407.0" />
+      <Label fx:id="invalidDetails" layoutX="336.0" layoutY="370.0" textFill="RED" />
+   </children>
+</AnchorPane>

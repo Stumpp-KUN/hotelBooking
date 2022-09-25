@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trosyproject.mail.MailController">
+   <children>
+      <Label layoutX="10.0" layoutY="14.0" text="Вы успешно забронировались" textFill="#ff0048">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="okbutn" layoutX="62.0" layoutY="50.0" mnemonicParsing="false" onMouseClicked="#ok" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: white;" text="ок" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trosyproject.Controller">
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: #e5e5e5;">
+         <children>
+            <Button layoutX="90.0" layoutY="572.0" mnemonicParsing="false" onMouseClicked="#econ" prefHeight="20.0" prefWidth="120.0" text="Забронировать">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font></Button>
+            <Label alignment="CENTER" layoutX="50.0" layoutY="32.0" prefHeight="32.0" prefWidth="200.0" text="Эконом номер">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="38.0" layoutY="93.0" prefHeight="32.0" prefWidth="218.0" text="Номер включает в себя:" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="50.0" layoutY="75.0" prefHeight="18.0" prefWidth="199.0" text="Приветствуем вас! ">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="61.0" layoutY="125.0" prefHeight="18.0" prefWidth="171.0" text="Бесплатный Wi-Fi" />
+            <Label layoutX="61.0" layoutY="146.0" prefHeight="18.0" prefWidth="171.0" text="Поддержка персонала" />
+            <Label layoutX="61.0" layoutY="164.0" prefHeight="18.0" prefWidth="171.0" text="Ежедневная уборка" />
+            <Label layoutX="61.0" layoutY="182.0" prefHeight="18.0" prefWidth="171.0" text="ТВ (по оплате)" />
+            <ImageView fitHeight="167.0" fitWidth="257.0" layoutX="21.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../econom.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="180.0" fitWidth="250.0" layoutX="22.0" layoutY="371.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../econom1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="300.0" prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: #e5e5e5;">
+         <children>
+            <Label alignment="CENTER" layoutX="50.0" layoutY="33.0" prefHeight="32.0" prefWidth="200.0" text="Стандартный номер">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="57.0" layoutY="72.0" prefHeight="18.0" prefWidth="199.0" text="Приветствуем вас! ">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="47.0" layoutY="85.0" prefHeight="32.0" prefWidth="218.0" text="Номер включает в себя:" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="121.0" prefHeight="18.0" prefWidth="199.0" text="Все ранее описаные преимущества" />
+            <Label layoutX="57.0" layoutY="139.0" prefHeight="18.0" prefWidth="171.0" text="Бесплатный ТВ" />
+            <Label layoutX="57.0" layoutY="157.0" prefHeight="18.0" prefWidth="171.0" text="Смокинг номера" />
+            <Label layoutX="57.0" layoutY="175.0" prefHeight="18.0" prefWidth="200.0" text="В номере не запрещены питомцы" />
+            <ImageView fitHeight="167.0" fitWidth="257.0" layoutX="32.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../norm.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="167.0" fitWidth="257.0" layoutX="46.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../norm1.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="83.0" layoutY="573.0" mnemonicParsing="false" onMouseClicked="#standart" prefHeight="20.0" prefWidth="120.0" text="Забронировать">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="600.0" prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: #e5e5e5;">
+         <children>
+            <Label alignment="CENTER" layoutX="39.0" layoutY="32.0" prefHeight="32.0" prefWidth="200.0" text="Бизнес номер">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="39.0" layoutY="74.0" prefHeight="18.0" prefWidth="199.0" text="Приветствуем вас! ">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="30.0" layoutY="87.0" prefHeight="32.0" prefWidth="218.0" text="Номер включает в себя:" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="110.0" prefHeight="18.0" prefWidth="199.0" text="Все ранее описаные преимущества" />
+            <ImageView fitHeight="167.0" fitWidth="257.0" layoutX="25.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../biznes.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="179.0" fitWidth="275.0" layoutX="35.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../biznes1.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="83.0" layoutY="574.0" mnemonicParsing="false" onMouseClicked="#biznes" prefHeight="20.0" prefWidth="120.0" text="Забронировать">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="39.0" layoutY="128.0" prefHeight="18.0" prefWidth="171.0" text="Личный бассейн" />
+            <Label layoutX="39.0" layoutY="146.0" prefHeight="18.0" prefWidth="171.0" text="Малое количество соседей" />
+            <Label layoutX="39.0" layoutY="164.0" prefHeight="18.0" prefWidth="200.0" text="3-х комнатные номера" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
