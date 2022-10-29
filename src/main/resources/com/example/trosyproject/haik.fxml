@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="700.0" style="-fx-background-color: #3f3f3f;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trosyproject.HumanController">
+    <children>
+        <ImageView fitHeight="179.0" fitWidth="184.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../8745bc62c823aa5ed65d3b23f51edd0d.jpg" />
+            </image>
+        </ImageView>
+    <Label layoutX="232.0" layoutY="14.0" text="Приветствую Вас, я ваш консультант" textFill="WHITE">
+        <font>
+            <Font size="23.0" />
+        </font>
+    </Label>
+    <Label layoutX="232.0" layoutY="60.0" text="Кол-во номеров эконом типа" textFill="WHITE">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+    <Label fx:id="answer" layoutX="618.0" layoutY="163.0" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="227.0" layoutY="87.0" text="Кол-во номеров стандарт типа" textFill="WHITE">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+    <Label layoutX="227.0" layoutY="113.0" text="Кол-во номеров бизнес типа" textFill="WHITE">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+    <Label fx:id="ecoType" layoutX="479.0" layoutY="64.0" textFill="WHITE" />
+    <Label fx:id="standType" layoutX="476.0" layoutY="90.0" prefHeight="18.0" prefWidth="5.0" textFill="WHITE" />
+    <Label fx:id="biznesType" layoutX="476.0" layoutY="116.0" prefHeight="18.0" prefWidth="5.0" textFill="WHITE" />
+    <Button layoutX="288.0" layoutY="150.0" mnemonicParsing="false" onMouseClicked="#nhelp" prefHeight="26.0" prefWidth="228.0" text="Вызвать помощь" />
+    <Label fx:id="detail" alignment="CENTER" layoutX="232.0" layoutY="172.0" prefHeight="26.0" prefWidth="386.0" textFill="WHITE">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+    </children>
+</AnchorPane>

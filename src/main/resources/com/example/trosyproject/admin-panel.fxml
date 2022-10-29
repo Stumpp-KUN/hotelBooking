@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trosyproject.AdminPanel">
+   <children>
+      <Label layoutX="252.0" layoutY="14.0" text="Панель администратора">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" editable="true" layoutX="27.0" layoutY="50.0" prefHeight="534.0" prefWidth="763.0">
+        <columns>
+          <TableColumn fx:id="id1" prefWidth="54.40002250671387" text="id" />
+          <TableColumn fx:id="name1" prefWidth="195.19998931884766" text="name" />
+            <TableColumn fx:id="surname1" prefWidth="172.79998779296875" text="surname" />
+            <TableColumn fx:id="email1" prefWidth="175.20001220703125" text="email" />
+            <TableColumn fx:id="alert1" prefWidth="163.20000000000005" text="alert" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

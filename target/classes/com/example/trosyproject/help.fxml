@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #3f3f3f;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trosyproject.AlertController">
+   <children>
+      <Label layoutX="130.0" layoutY="398.0" text="Лиза" textFill="#10d3ff">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="533.0" layoutY="401.0" text="Акаши" textFill="#c800ff">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="48.0" text="Выберите консультанта">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color green="0.6833333373069763" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="230.0" fitWidth="214.0" layoutX="79.0" layoutY="135.0" onMouseClicked="#egirl" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../5zJDYNiJeGI.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="210.0" fitWidth="194.0" layoutX="468.0" layoutY="135.0" onMouseClicked="#haik" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../8745bc62c823aa5ed65d3b23f51edd0d.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
